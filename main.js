@@ -3,7 +3,7 @@ const assert = require('assert');
 
 // This is an object that has types of jobs and the values each provide.
 const jobTypes = {
-  pilot: 'MAV',
+  pilot: 'MAV', 
   mechanic: 'Repair Ship',
   commander: 'Main Ship',
   programmer: 'Any Ship!'
