@@ -16,9 +16,9 @@ class CrewMember {
     this.specialSkill = specialSkill
     this.ship = ship    
   }
-  enterShip(ship) {
-    this.ship = ship
-    ship.crew.push(this)
+  enterShip(newShip) {
+    this.ship = newShip
+    newShip.crew.push(this)
   }
 }
 
@@ -36,14 +36,7 @@ class Ship {
       return this.ability
     }
   }
-
 }
-
-// let mav = new Ship('Mars Ascent Vehicle', 'MAV', 'Ascend into low orbit')
-// let crewMember1 = new CrewMember('Rick Martinez', 'pilot', 'chemistry')
-// let hermes = new Ship('Hermes', 'Main Ship', 'Interplanetary Space Travel')
-// const crewMember2 = new CrewMember('Commander Lewis', 'commander', 'geology')
-
 
 
 // Begin by reading the tests and building a function that will full each one.
